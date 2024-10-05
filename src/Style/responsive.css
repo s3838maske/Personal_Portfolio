@@ -1,0 +1,82 @@
+@media (max-width: 470px) {
+   .back-text{
+    display: none;
+   }
+
+   .nav-list{
+    display: block;
+    position: fixed;
+    text-align: right;
+    background-color: #121214;
+    right: 0rem;
+    top: -15rem;
+    width: 100%;
+    z-index: 111;
+    transition: all 0.5s ease;
+   }
+
+   .open{
+    top: 3rem;
+   }
+
+   .nav-list li{
+    padding: 1rem 0.5rem;
+   }
+
+  .menu-btn img{
+    display: block;
+  }
+
+  .navbar{
+    display: flex;
+    justify-content: end;
+    position: fixed;
+    top: 0rem;
+    right: 0;
+    background-color: var(--bg-color);
+    width: 100%;
+    z-index: 1000;
+  }
+
+  
+.heading{
+    font-size: 6rem;
+}
+
+.sub-title{
+    font-size: 0.5rem;
+}
+.title{
+    font-size: 1.5rem;
+}
+
+.hero-section img{
+    width: 1.5rem;
+}
+
+.card{
+    margin-top: 5rem;
+    margin-inline: 1rem;
+}
+.hero-text{
+    position: unset;
+    margin-top: 5rem;
+}
+
+.section-title{
+    font-size: 2rem;
+}
+
+.about-right p{
+    font-size: 0.9rem;
+}
+
+.flex{
+    flex-direction: column;
+}
+
+.project-list{
+    justify-content: center;
+}
+  
+}
