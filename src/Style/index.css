@@ -246,7 +246,7 @@ a{
 /* Project section Started */
 .project-list{
   display: flex;
-  /* justify-content: space-; */
+  justify-content: center;
   flex-wrap: wrap;
   gap: 1.5rem;
 }
@@ -257,6 +257,9 @@ a{
   color: white;
   border-radius: 10px;
   overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 .Project-card div:nth-child(2){
   padding: 1rem;
@@ -268,7 +271,8 @@ a{
 
 .project-img img{
   object-fit: cover;
-  width: 100%;
+  width: auto;
+  height: 9.5rem;
   border-radius: 10px;
 }
 
@@ -286,6 +290,10 @@ a{
 .project-discription{
   color: var(--sub-text);
   font-size: 0.9rem;
+}
+
+.stack-img img{
+  width: 3rem;
 }
 /* Project section Started */
 

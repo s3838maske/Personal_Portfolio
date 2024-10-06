@@ -9,8 +9,10 @@ function ProjectCard({project}) {
     <div>
       <p className="project-heading">{project.heading}</p>
       <p className="project-sub-heading">{project.subHeading}</p>
-      <p className="project-discription">{project.description}</p>
-      <span className="stack-img">
+      <p className="project-discription">{project.description.slice(0,220)}...</p>
+    </div>
+    <div>
+    <span className="stack-img">
         {project.techStack.map((value) => {
           return (
             <>
