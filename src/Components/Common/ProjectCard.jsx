@@ -1,7 +1,9 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 
 function ProjectCard({project}) {
   return (
+    <Link to={"/project-details/"+project.id}>
     <div className="Project-card" key={project.heading}>
     <div className="project-img">
       <img src={project.image.src} alt={project.image.alt} />
@@ -23,6 +25,8 @@ function ProjectCard({project}) {
       </span>
     </div>
   </div>
+  </Link>
+
   )
 }
 

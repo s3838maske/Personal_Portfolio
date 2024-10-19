@@ -70,20 +70,20 @@ function AboutPage() {
         <TitleBox>
           <h3>Key Skills</h3>
           <br />
-          <div>
+          <div className="key-Skill">
             <marquee  direction="left" behavior="alternate" scrollamount="2" scrolldelay="10" loop="true"  width="100%">
-            <img src="image 13.png" alt="react.png" />
-            <img src="image 13.png" alt="react.png" />
-            <img src="image 13.png" alt="react.png" />
-            <img src="image 13.png" alt="react.png" />
-            <img src="image 13.png" alt="react.png" />
-            <img src="image 13.png" alt="react.png" />
-            <img src="image 13.png" alt="react.png" />
-            <img src="image 13.png" alt="react.png" />
-            <img src="image 13.png" alt="react.png" />
-            <img src="image 13.png" alt="react.png" />
-            <img src="image 13.png" alt="react.png" />
-            <img src="image 13.png" alt="react.png" />
+            <img src="techStack/css.png" width={80} alt="css.png" />
+            <img src="techStack/figma.png" width={80}  alt="figma.png" />
+            <img src="techStack/html.png" width={80}  alt="html.png" />
+            <img src="techStack/js.png" width={80}  alt="js.png" />
+            <img src="techStack/react.png" width={80}  alt="react.png" />
+            <img src="techStack/express.png" width={80} alt="express.png" />
+            <img src="techStack/nextJs.png" width={80}  alt="next.js.png" />
+            <img src="techStack/tailwind.png" width={80}  alt="tailwind.png" />
+            <img src="techStack/materialui.png" width={80}  alt="material.png" /> 
+            <img src="techStack/firebase.png" width={80}  alt="firebase.png" /> 
+            <img src="techStack/mongo.png" width={80}  alt="mongo.png" /> 
+            <img src="techStack/node.png" width={80}  alt="node.png" /> 
             </marquee>
           </div>
         </TitleBox>

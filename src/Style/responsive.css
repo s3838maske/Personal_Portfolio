@@ -78,5 +78,20 @@
 .project-list{
     justify-content: center;
 }
+
+.details-container{
+    flex-direction: column;
+}
+
+.left-container{
+    width: 100%;
+}
+.right-container{
+    width: 100%;
+    padding: 0;
+}
+
   
+
+
 }

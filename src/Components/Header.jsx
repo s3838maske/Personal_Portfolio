@@ -31,7 +31,7 @@ function Header() {
            
         </ul>
         <div className='menu-btn' id='menu-btn' onClick={hadleMenu}>
-        <img src="menu.svg"  alt="menu-btn-svg" />
+        <img src="/menu.svg"  alt="menu-btn-svg" />
         </div>
     </nav>
     </>

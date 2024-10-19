@@ -19,13 +19,7 @@ function About() {
         completed more than two years of rigorous academic work, culminating in
         the development of a final year project. This experience not only
         deepened my technical knowledge but also provided me with invaluable
-        hands-on experience. <br />
-        <br />
-        My journey in IT has significantly shaped my skills
-        in web development, teamwork, and the application of critical thinking.
-        I have learned how to approach and solve complex problems using
-        strategic and innovative solutions. This experience has equipped me with
-        the tools to thrive in a fast-paced and ever-evolving industry.
+        hands-on experience....
       </p>
       <br />
       <Link to={"about"}>

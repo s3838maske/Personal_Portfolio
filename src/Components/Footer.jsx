@@ -19,28 +19,28 @@ function Footer() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <img src="linkedin.svg" alt="linkedin.svg" />
+              <img src="/linkedin.svg" alt="linkedin.svg" />
             </a>
             <a
               href="http://github.com/s3838maske"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <img src="Github.png" alt="github.png" />
+              <img src="/Github.png" alt="github.png" />
             </a>
             <a
               href="https://wa.link/q3sjes"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <img src="whatsapp.png" alt="whatsapp.png" />
+              <img src="/whatsapp.png" alt="whatsapp.png" />
             </a>
             <a
               href="mailto:maskeshubham555@gmail.com"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <img src="email.png" alt="email.png" />
+              <img src="/email.png" alt="email.png" />
             </a>
           </div>
           <span className="footer-disc"> © 2024 Shubham Maske</span>
